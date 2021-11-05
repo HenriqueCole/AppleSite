@@ -1,0 +1,22 @@
+{
+  "name": "applesite",
+  "version": "1.0.0",
+  "description": "clone site Apple",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueCole/AppleSite.git"
+  },
+  "author": "Henrique Cole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueCole/AppleSite/issues"
+  },
+  "homepage": "https://github.com/HenriqueCole/AppleSite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
