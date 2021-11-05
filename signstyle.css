@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    font-family: 'Quantico', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, black , #19032e);
+}
+
+.Menu{
+    display: flex;
+    font-size: 16px;
+    color: rgb(209, 206, 206);
+    column-gap: 10px;
+}
+
+.LogoCole{
+    height: 75px;
+    padding: 1px;
+    margin: 8px 0px 20px 9px;
+}
+
+a{
+    text-decoration: auto;
+    color: rgb(209, 206, 206);
+    transition: color 1s;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Home{
+    color: rgb(209, 206, 206);
+    align-items: center;
+    display: grid;
+    margin: 0px 0px 0px 45px;
+
+}
+
+.Suporte{
+    color: rgb(209, 206, 206);
+    align-items: center;
+    display: grid;
+    margin: 0px 0px 0px 29px;
+}
+
+
+.Comprar{
+    color: rgb(209, 206, 206);
+    align-items: center;
+    display: grid;
+    margin: 0px 0px 0px 31px;
+}
+
+.Search{
+    border: none;
+    background-color: rgb(46 55 74 / 86%);
+    height: 35px;
+    width: 177px;
+    border-radius: 7px;
+    box-shadow: white 0px 0px 2px 0px;
+    margin: 20px 0px 0px 450px;
+}
+
+.SignIn{
+    width: 71px;
+    height: 28px;
+    padding: 1px 1px 1px 1px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin: 20px 0px 0px 0px;
+}
+
+.SignOut{
+    width: 71px;
+    height: 28px;
+    padding: 1px 1px 1px 1px;
+    box-shadow: white 0px 0px 1px 1px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin: 20px 0px 0px 0px;
+}
+
+.Divisao{
+    background-color: #2a272754;
+    padding: 0px 0px 1px 0px;
+    margin: 0px 0px 28px 0px;
+}
+
+.Container-Login{
+    display: flex;
+    justify-content: center;
+}
+
+.Login{
+    padding: 6px 0px 0px 0px;
+    height: 188px;
+    width: 650px;
+    border-radius: 6px;
+    background-color: #0c162d9c;
+    margin: 70px 0px 0px 0px;
+    box-shadow: #202637 0px 0px 0px 1px;
+}
+
+.Welcome{
+  border-right: solid 3px #627597;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-size: 16px;
+  color: rgba(255,255,255,.70);
+}
+
+.Welcome{
+    border-right: solid 3px #627597;
+    color: #627597;
+    justify-content: center;
+    display: grid;
+    animation: animated-text 3s steps(29,end) 1.3s 1 normal both,
+    animated-cursor 600ms steps(29,end) infinite;
+}
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 315px;}
+  }
+
+  @keyframes animated-cursor{
+    from{border-right-color: #627597;}
+    to{border-right-color: transparent;}
+  }
+
+.Welcome2{
+    margin: 8px 0px 0px 0px;
+}
+
+.email{
+    justify-content: center;
+    display: flex;
+    margin: 20px 0px 0px -479px;
+    color: #00cfc8;
+}
+
+.arrow{
+    margin: 34px 0px 0px 5px;
+    color: #79066b;
+}
+
+.pesquisa{
+    position: absolute;
+    margin: -31px 0px 0px 24px;
+}
+
+input{
+    width: 473px;
+    background-color: transparent;
+    -webkit-text-fill-color: #fff;
+    font-size: 16px;
+    box-shadow: none;
+    border: 0;
+    outline: none;
+}
+
+button{
+    background: transparent;
+    border: none;
+    padding: 1px 1px 1px 1px;
+    color: grey;
+    box-shadow: grey 0px 0px 0px 1px;
+    height: 33px;
+    width: 80px;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, black , #19032e);
+}
+
+.Menu{
+    display: flex;
+    font-size: 16px;
+    color: rgb(209, 206, 206);
+    column-gap: 10px;
+}
+
+.LogoCole{
+    height: 75px;
+    padding: 1px;
+    margin: 8px 0px 20px 9px;
+}
+
+a{
+    text-decoration: auto;
+    color: rgb(209, 206, 206);
+    transition: color 1s;
+    font-weight: 800;
+}
+
+.Home{
+    color: rgb(209, 206, 206);
+    align-items: center;
+    display: grid;
+    margin: 0px 0px 0px 45px;
+
+}
+
+.Suporte{
+    color: rgb(209, 206, 206);
+    align-items: center;
+    display: grid;
+    margin: 0px 0px 0px 29px;
+}
+
+
+.Comprar{
+    color: rgb(209, 206, 206);
+    align-items: center;
+    display: grid;
+    margin: 0px 0px 0px 31px;
+}
+
+.Search{
+    border: none;
+    background-color: rgb(46 55 74 / 86%);
+    height: 35px;
+    width: 177px;
+    border-radius: 7px;
+    box-shadow: white 0px 0px 2px 0px;
+    margin: 20px 0px 0px 450px;
+}
+
+.SignIn{
+    width: 71px;
+    height: 28px;
+    padding: 1px 1px 1px 1px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin: 20px 0px 0px 0px;
+}
+
+.SignOut{
+    width: 71px;
+    height: 28px;
+    padding: 1px 1px 1px 1px;
+    box-shadow: white 0px 0px 1px 1px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin: 20px 0px 0px 0px;
+}
+
+.Divisao{
+    background-color: #2a272754;
+    padding: 0px 0px 1px 0px;
+}
+
+.AppleLogo{
+    height: 50px;
+    animation: go-back 1s infinite alternate;
+    margin: 30px 0px 0px 0px;
+}
+  
+  @keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+.ContainerMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pro{
+    color: rgb(209, 206, 206);
+    font-size: 77px;
+    margin: -15px 0px 0px 0px;
+}
+
+.ContainerPro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Iphone13pro{
+    color: rgb(209, 206, 206);
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 7px 0px 20px 0px;
+}  
+
+.imagemLado{
+    justify-content: end;
+    display: flex;
+    animation: go-back 1s;
+    margin: 60px 0px 0px 0px;
+}
+
+@keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+.lado{
+    height: 295px;
+}
+.preco{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px 0px 0px;
+    font-size: 94px;
+}
+
+button{
+    margin: 36px 0px 0px 0px;
+    border: none;
+    color: white;
+    background-color: #06c;
+    height: 35px;
+    width: 93px;
+    font-size: 23px;
+    border-radius: 53px;
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: #06c;
+  transform: translateX(10px) scale(2);
+  
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+}
+
+.espaco{
+    padding: 100px;
+}

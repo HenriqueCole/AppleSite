@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    font-family: 'Quantico', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, black , #19032e);
+}
+
+.Menu{
+    display: flex;
+    font-size: 16px;
+    color: rgb(209, 206, 206);
+    column-gap: 10px;
+}
+
+.LogoCole{
+    height: 75px;
+    padding: 1px;
+    margin: 8px 0px 20px 9px;
+}
+
+a{
+    text-decoration: auto;
+    color: rgb(209, 206, 206);
+    transition: color 1s;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Home{
+    color: rgb(209, 206, 206);
+    align-items: center;
+    display: grid;
+    margin: 0px 0px 0px 45px;
+
+}
+
+.Suporte{
+    color: rgb(209, 206, 206);
+    align-items: center;
+    display: grid;
+    margin: 0px 0px 0px 29px;
+}
+
+
+.Comprar{
+    color: rgb(209, 206, 206);
+    align-items: center;
+    display: grid;
+    margin: 0px 0px 0px 31px;
+}
+
+.Search{
+    border: none;
+    background-color: rgb(46 55 74 / 86%);
+    height: 35px;
+    width: 177px;
+    border-radius: 7px;
+    box-shadow: white 0px 0px 2px 0px;
+    margin: 20px 0px 0px 450px;
+}
+
+.SignIn{
+    width: 71px;
+    height: 28px;
+    padding: 1px 1px 1px 1px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin: 20px 0px 0px 0px;
+}
+
+.SignOut{
+    width: 71px;
+    height: 28px;
+    padding: 1px 1px 1px 1px;
+    box-shadow: white 0px 0px 1px 1px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin: 20px 0px 0px 0px;
+}
+
+.Divisao{
+    background-color: #2a272754;
+    padding: 0px 0px 1px 0px;
+    margin: 0px 0px 28px 0px;
+}
+
+.Container-Login{
+    display: flex;
+    justify-content: center;
+}
+
+.Login{
+    padding: 6px 0px 0px 0px;
+    height: 240px;
+    width: 315px;
+    border-radius: 6px;
+    background-color: #0c162d9c;
+    margin: 70px 0px 0px 0px;
+    box-shadow: #202637 0px 0px 0px 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.username{
+    color: #00cfc8;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 17px 0px 0px 19px;
+}
+
+.search-user{
+    border: none;
+    height: 31px;
+    width: 276px;
+    border-radius: 4px;
+    margin: 17px 0px 0px 0px;
+    background: #0c162d9c;
+    box-shadow: #202637 0px 0px 0px 1px;
+    -webkit-text-fill-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.search-user:hover{
+    border: none;
+    height: 31px;
+    width: 276px;
+    border-radius: 4px;
+    margin: 17px 0px 0px 0px;
+    background: #0c162d9c;
+    box-shadow: #0e3dbe 0px 0px 0px 1px;
+    -webkit-text-fill-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.senha{
+    color: #00cfc8;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 17px 0px 0px 19px;
+}
+
+.container-senha{
+    display: flex;
+    column-gap: 100px;
+    margin: 5px 0px 0px 0px;
+}
+
+.forgot{
+    color: #af14c4;
+    font-weight: 100;
+    font-size: 12px;
+    margin: 20px 0px 0px 19px;
+    cursor: pointer;
+}
+
+.search-senha{
+    border: none;
+    height: 31px;
+    width: 276px;
+    border-radius: 4px;
+    margin: 16px 0px 0px 19px;
+    background: #0c162d9c;
+    box-shadow: #202637 0px 0px 0px 1px;
+    -webkit-text-fill-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.search-senha:hover{
+    border: none;
+    height: 31px;
+    width: 276px;
+    border-radius: 4px;
+    margin: 16px 0px 0px 19px;
+    background: #0c162d9c;
+    box-shadow: #0e3dbe 0px 0px 0px 1px;
+    -webkit-text-fill-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+}
+
+.search-user{
+    outline: none;
+}
+
+.search-senha{
+    outline: none;
+}
+
+button{
+    border: none;
+    height: 33px;
+    width: 278px;
+    margin: 18px 0px 0px 18px;
+    border-radius: 10px;
+    box-shadow: #a1a8bb 0px 0px 0px 1px;
+    background: #2da44e;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    border: none;
+    height: 33px;
+    width: 278px;
+    margin: 18px 0px 0px 18px;
+    border-radius: 10px;
+    box-shadow: #a1a8bb 0px 0px 0px 1px;
+    background: #1e7c39;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Container-New{
+    display: flex;
+    justify-content: center;
+}
+
+.New{
+    padding: 6px 0px 0px 0px;
+    height: 40px;
+    width: 315px;
+    border-radius: 6px;
+    background-color: #0c162d9c;
+    margin: 20px 0px 0px 0px;
+    box-shadow: #202637 0px 0px 0px 1px;
+}
+
+.Container-New{
+    display: flex;
+}
+
+.newGit{
+    display: flex;
+    color: #00cfc8;
+    font-weight: 700;
+    font-size: 14px;
+    justify-content: center;
+    column-gap: 13px;
+    align-items: center;
+    margin: 9px 0px 0px 0px;
+}
+
+.create{
+    color: #af14c4;
+    font-weight: 100;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.create:hover{
+    color: #af14c4;
+    font-weight: 100;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+}
