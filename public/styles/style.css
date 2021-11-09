@@ -234,6 +234,7 @@ a{
     margin: 0px 0px 0px 13px;
     padding: 35px 170px;
     padding-top: 0px;
+    width: 336px;
 }
 
 .AirPod{
@@ -280,8 +281,8 @@ a{
     margin: 15px 0px 0px 12px;
     padding-right: 149px;
     padding-bottom: 0px;
-    width: 294px;
     height: 539px;
+    width: 228px;
 }
 
 .Watchdesc1{
@@ -333,7 +334,8 @@ a{
 }
 
 .Watches{
-    margin: 72px 0px 0px -302px;
+    margin: 96px 0px 0px -302px;
+    height: 307px;
 }
 
 
@@ -343,7 +345,7 @@ a{
     padding-top: 30px;
     padding-right: 0px;
     height: 123px;
-    width: 268px;
+    width: 207px;
 }
 
 .Homepoddesc1{
@@ -385,7 +387,7 @@ a{
 
 .HomePODimagem{
     margin: 105px 0px 0px -384px;
-    height: 268px;
+    height: 241px;
 }
 
 .ipad{
@@ -395,7 +397,7 @@ a{
     padding-right: 0px;
     padding-bottom: 0px;
     padding-top: 55px;
-    width: 395px;
+    width: 335px;
 }
 
 .ipadDesc1{
